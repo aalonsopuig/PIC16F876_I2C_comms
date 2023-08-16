@@ -33,7 +33,6 @@ que se propone, así como el esquema electrónico (JPG e Eagle).</p>
   <li>
     <p align="justify"><b>Programa mi2c06_master.asm</b> (Master I<sup>2</sup>C v06 del programa):</li>
 </ol>
-<blockquote>
   <p align="justify">Velocidad reloj I<sup>2</sup>C (línea SCL): El programa está configurado para una
   velocidad de 100Khz (Si el cristal del chip es de 4Mhz). Se puede variar
   modificando el dato de la constante &quot;ClockValue&quot; al principio del
@@ -74,7 +73,7 @@ que se propone, así como el esquema electrónico (JPG e Eagle).</p>
   &nbsp; movwf &nbsp;&nbsp; PORTB ;...y lo muestra por
   PORTB (Leds)<br>
   &nbsp; goto &nbsp;&nbsp;&nbsp; MLoop</font></p>
-</blockquote>
+
 <font SIZE="2">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -82,7 +81,6 @@ que se propone, así como el esquema electrónico (JPG e Eagle).</p>
 <ol start="2">
   <li><b>Programa si2c06_slave.asm</b> (Slave I<sup>2</sup>C v06 del programa):</li>
 </ol>
-<blockquote>
   <p align="justify">Dirección del Slave: Se ha de establecer en la constante
   &quot;DirNodo&quot; al principio del programa. Por defecto está puesta la
   dirección &quot;'01111000&quot;</p>
@@ -96,9 +94,7 @@ que se propone, así como el esquema electrónico (JPG e Eagle).</p>
   Master (cuando éste le solicita información) el valor &quot;10011001&quot; y
   cuando el Master le envía un dato , lo muestra por la barrera de leds
   conectada al puerto B</p>
-</blockquote>
-  <p align="justify">&nbsp;</p>
-<blockquote>
+
   <p><font face="Courier New" color="#000080" size="2">MLoop<br>
   &nbsp; movlw b'10011001' ;dato cualquiera por I2C que metemos
   en...<br>
@@ -108,7 +104,7 @@ que se propone, así como el esquema electrónico (JPG e Eagle).</p>
   &nbsp; movwf PORTB &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ;...el ultimo
   valor enviado por el Master<br>
   &nbsp; goto&nbsp; MLoop</font></p>
-</blockquote>
+
   <p>&nbsp;</p>
   <p><b><u>Descargas</u></b></p>
 <ul>
@@ -135,7 +131,7 @@ que se propone, así como el esquema electrónico (JPG e Eagle).</p>
     <li><a href="http://www.microchip.com/download/appnote/pic16/00735a.pdf" target="_blank">Using
       the PICmicro MSSP Module for Master I2C Communications</a><a href="http://www.microchip.com/download/appnote/pic16/00734a.pdf" target="_blank"></a>
       <font size="1">(PDF )</font></li>
-    <li><a href="http://www.semiconductors.philips.com/buses/i2c/" target="_blank">P�gina
+    <li><a href="http://www.semiconductors.philips.com/buses/i2c/" target="_blank">Página
       I2C de Philips</a></li>
   </ul>
 
