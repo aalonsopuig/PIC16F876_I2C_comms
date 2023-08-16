@@ -27,6 +27,9 @@ preparado para el funcionamiento en modo multimaster o multitramas. Solo está
 preparado para enviar y recibir un byte por mensaje.</p>
 <p align="justify">En este repositorio, además del código fuente, encontrarás imágenes del montaje 
 que se propone, así como el esquema electrónico (JPG e Eagle).</p>
+<br>
+<p align="center"><img border="0" src="i2cBoard.jpg" width="503" ></p>
+<br>
 <p align="justify">Algunas aclaraciones para utilizar adecuadamente el código:</p>
 <p align="justify">&nbsp;</p>
 <ol>
