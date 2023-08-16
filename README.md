@@ -124,19 +124,7 @@ que se propone, así como el esquema electrónico (JPG e Eagle).</p>
   <li><a href="i2cSignal.jpg" target="_blank">Gráfico Señales I2C</a> <font size="1">(.JPG&nbsp;
     47Kb)</font></li>
 </ul>
-  <p>&nbsp;</p>
-  <p><b>LINKS RELACIONADOS</b></p>
-  <ul>
-    <li><a href="http://www.microchip.com/1010/pline/picmicro/category/embctrl/14kbytes/devices/16f876/index.htm" target="_blank">PIC16F87x
-      Datasheet</a></li>
-    <li><a href="http://www.microchip.com/download/appnote/pic16/00734a.pdf" target="_blank">Using
-      the PICmicro SSP for Slave I2CTM Communication</a>  <font size="1">(PDF )</font></li>
-    <li><a href="http://www.microchip.com/download/appnote/pic16/00735a.pdf" target="_blank">Using
-      the PICmicro MSSP Module for Master I2C Communications</a><a href="http://www.microchip.com/download/appnote/pic16/00734a.pdf" target="_blank"></a>
-      <font size="1">(PDF )</font></li>
-    <li><a href="http://www.semiconductors.philips.com/buses/i2c/" target="_blank">Página
-      I2C de Philips</a></li>
-  </ul>
+ 
 
 <hr>
 
